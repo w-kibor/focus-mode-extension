@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Focus Mode",
+  "version": "1.0",
+  "description": "Toggle grayscale filter on webpages to reduce distractions",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Toggle Focus Mode"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
